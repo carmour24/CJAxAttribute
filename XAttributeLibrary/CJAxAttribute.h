@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XAttributeLibrary : NSObject
+@interface CJAxAttribute : NSObject
+
++ (BOOL)setValue:(NSString *)value forAttribute:(NSString *)attrName forURL:(NSURL *)url;
+
++ (NSString *)getAttribute: (NSString *)attrName forURL:(NSURL *)url;
 
 @end

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83BC25591D3BA6F40007E509 /* XAttributeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC25581D3BA6F40007E509 /* XAttributeLibrary.m */; };
-		83BC255A1D3BA6F40007E509 /* XAttributeLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83BC25571D3BA6F40007E509 /* XAttributeLibrary.h */; };
+		83BC25AB1D3BA7E90007E509 /* CJAxAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC25AA1D3BA7E90007E509 /* CJAxAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +17,15 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				83BC255A1D3BA6F40007E509 /* XAttributeLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		83BC25541D3BA6F40007E509 /* libXAttributeLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXAttributeLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BC25571D3BA6F40007E509 /* XAttributeLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XAttributeLibrary.h; sourceTree = "<group>"; };
-		83BC25581D3BA6F40007E509 /* XAttributeLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAttributeLibrary.m; sourceTree = "<group>"; };
+		83BC25541D3BA6F40007E509 /* libCJAxAttribute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCJAxAttribute.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BC25A91D3BA7E90007E509 /* CJAxAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJAxAttribute.h; sourceTree = "<group>"; };
+		83BC25AA1D3BA7E90007E509 /* CJAxAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJAxAttribute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +42,7 @@
 		83BC254B1D3BA6F40007E509 = {
 			isa = PBXGroup;
 			children = (
-				83BC25561D3BA6F40007E509 /* XAttributeLibrary */,
+				83BC25561D3BA6F40007E509 /* CJAxAttribute */,
 				83BC25551D3BA6F40007E509 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,26 +50,27 @@
 		83BC25551D3BA6F40007E509 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83BC25541D3BA6F40007E509 /* libXAttributeLibrary.a */,
+				83BC25541D3BA6F40007E509 /* libCJAxAttribute.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83BC25561D3BA6F40007E509 /* XAttributeLibrary */ = {
+		83BC25561D3BA6F40007E509 /* CJAxAttribute */ = {
 			isa = PBXGroup;
 			children = (
-				83BC25571D3BA6F40007E509 /* XAttributeLibrary.h */,
-				83BC25581D3BA6F40007E509 /* XAttributeLibrary.m */,
+				83BC25A91D3BA7E90007E509 /* CJAxAttribute.h */,
+				83BC25AA1D3BA7E90007E509 /* CJAxAttribute.m */,
 			);
+			name = CJAxAttribute;
 			path = XAttributeLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83BC25531D3BA6F40007E509 /* XAttributeLibrary */ = {
+		83BC25531D3BA6F40007E509 /* CJAxAttribute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83BC255D1D3BA6F40007E509 /* Build configuration list for PBXNativeTarget "XAttributeLibrary" */;
+			buildConfigurationList = 83BC255D1D3BA6F40007E509 /* Build configuration list for PBXNativeTarget "CJAxAttribute" */;
 			buildPhases = (
 				83BC25501D3BA6F40007E509 /* Sources */,
 				83BC25511D3BA6F40007E509 /* Frameworks */,
@@ -81,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = XAttributeLibrary;
+			name = CJAxAttribute;
 			productName = XAttributeLibrary;
-			productReference = 83BC25541D3BA6F40007E509 /* libXAttributeLibrary.a */;
+			productReference = 83BC25541D3BA6F40007E509 /* libCJAxAttribute.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83BC254F1D3BA6F40007E509 /* Build configuration list for PBXProject "XAttributeLibrary" */;
+			buildConfigurationList = 83BC254F1D3BA6F40007E509 /* Build configuration list for PBXProject "CJAxAttribute" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83BC25531D3BA6F40007E509 /* XAttributeLibrary */,
+				83BC25531D3BA6F40007E509 /* CJAxAttribute */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BC25591D3BA6F40007E509 /* XAttributeLibrary.m in Sources */,
+				83BC25AB1D3BA7E90007E509 /* CJAxAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +236,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83BC254F1D3BA6F40007E509 /* Build configuration list for PBXProject "XAttributeLibrary" */ = {
+		83BC254F1D3BA6F40007E509 /* Build configuration list for PBXProject "CJAxAttribute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83BC255B1D3BA6F40007E509 /* Debug */,
@@ -246,13 +245,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83BC255D1D3BA6F40007E509 /* Build configuration list for PBXNativeTarget "XAttributeLibrary" */ = {
+		83BC255D1D3BA6F40007E509 /* Build configuration list for PBXNativeTarget "CJAxAttribute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83BC255E1D3BA6F40007E509 /* Debug */,
 				83BC255F1D3BA6F40007E509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
